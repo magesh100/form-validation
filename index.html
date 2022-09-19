@@ -4,13 +4,69 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
-  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+  <title>FORM VALIDATION PROJECT USING HTML,CSS,JAVASCRIPT</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/fav-icon.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/normalize.css" />
   <link rel="stylesheet" href="./styles/style.css" />
 </head>
 <body>
-  <script src="./scripts/script.js"></script>
-</body>
+  <div class="container row">
+    <div class="card">
+      <h1 class="title"> You Can Register Here</h1>
+      <form class="submit-form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your Name"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your Email"
+            />
+          </div>
+          <div class="form-control">
+            <label for="mobile">Mobile Number</label>
+            <input
+              type="number"
+              id="mobile"
+              name="mobile"
+              placeholder="Enter your Mobile Number"
+            />
+          </div>
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your Password"
+            />
+          </div>
+          <div class="form-control">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="text"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Confirm your password"
+            />
+          </div>
+          <button class="btn btn-light btn-block">Submit</button>
+        </form>
+      </div>
+    </div>
+    
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
+
+  
