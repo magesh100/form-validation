@@ -10,13 +10,13 @@
 }
 
 :root {
-  --clr-dark: #0b0311;
+  --clr-dark: #ee09a9;
   --clr-white: #fff;
   --max-width: 1140px;
   --transition: all 0.5s ease;
 }
 
-/* pseudo elements in css */
+
 
 html {
   font-size: 16px;
@@ -28,7 +28,7 @@ body {
   background-color: var(--clr-white);
 }
 
-/* global css */
+
 img {
   width: 100%;
   height: auto;
@@ -58,7 +58,7 @@ li {
   font-size: 1.25rem;
   font-weight: 600;
   cursor: pointer;
-  /* customize */
+  
   background-color: #1c2042;
   color: #fff;
   border: 2px solid #1c2042;
