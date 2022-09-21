@@ -2,7 +2,7 @@
 
 document.getElementById('title').style.color = '#5c2bbe';
 const newEl = document.createElement('h2');
-newEl.textContent = 'You can fill  this Form Here';
+
 newEl.style.textAlign = 'center';
 newEl.style.marginTop = 1;
 document.querySelector('.contain').appendChild(newEl);
