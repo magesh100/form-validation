@@ -26,6 +26,10 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--clr-white);
+  background-image:url("../assets/images/colorful-polygonal-background-abstract-form-vector-23254801.jpg") ;
+  background-size:280%;
+  background-position: -400px 0px;
+
 }
 
 
@@ -72,11 +76,12 @@ li {
 }
 
 .card {
+
   width: 24rem;
   max-width: 30rem;
   margin: 0 auto;
   padding: 0.5rem 1.75rem 3rem 1.75rem;
-  background-color: var(--clr-dark);
+  background-color: rgba(0,0,0,0.5);
   color: var(--clr-white);
   border-radius: 10px;
 }
@@ -92,26 +97,46 @@ li {
   margin-bottom: 1.5rem;
 }
 
-label,
-input {
+.form-control label,
+.form-control input {
   display: block;
   width: 100%;
-  margin-bottom: 0.75rem;
-  margin-top: 0.75rem;
+  margin :  0.5rem;
+}
+.small{
+  margin-left:1rem;
+  color:rgb(10, 2, 19);
+  font-size:1rem;
+  visibility: hidden;
+}
+.form-control.error small{
+  visibility: visible;
 }
 
-label {
-  font-size: 1.25rem;
+.form-control label {
+  font-size: 1rem;
   font-weight: 700;
+
 }
 
-input {
-  padding: 1rem 1.25rem;
-  font-size: 1.25rem;
+.form-control input {
+  padding: 0.8rem 1.25rem;
+  font-size: 1rem;
   font-size: 600;
   border-radius: 10px;
   outline: none;
-  border: none;
+  
+
+}
+.form-control input:focus{
+  outline:0;
+  border-color: aqua;
+}
+.form-control.error input{
+  border-color:black;
+}
+.form-control.success input{
+  border-color:rgb(10, 238, 151);
 }
 
 .btn-light {

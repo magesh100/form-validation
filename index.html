@@ -13,25 +13,29 @@
 <body>
   <div class="container row">
     <div class="card">
-      <h1 class="title"> You Can Register Here</h1>
-      <form class="submit-form">
+      <h1 class="title" id="title"> You Can Register Here</h1>
+      <div class="contain"></div>
+      <form class="submit-form" id="form">
         <div class="form-control">
-          <label for="username">Firstname</label>
+          <label for="username" >username</label>
           <input
             type="text"
-            id="Firstname"
-            name="Firstname"
-            placeholder="Enter your FirstName"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+          
           />
+          <small class="small">username is required!</small>
         </div>
         <div class="form-control">
-          <label for="email">Lastname</label>
+          <label for="surname"> surname</label>
           <input
-            type="email"
-            id="Lastname"
-            name="Lastname"
-            placeholder="Enter your Lastname"
+            type="text"
+            id="surname"
+            name="surname"
+            placeholder="Enter your last name"
             />
+            <small class="small"> surname is required!</small>
           </div>
           <div class="form-control">
             <label for="mobile">Mobile Number</label>
@@ -41,26 +45,29 @@
               name="mobile"
               placeholder="Enter your Mobile Number"
             />
+            <small class="small">Mobile number is required!</small>
           </div>
           <div class="form-control">
-            <label for="password">Password</label>
+            <label for="new-password">Password</label>
             <input
               type="password"
-              id="password"
-              name="password"
+              id="new-password"
+              name="new-password"
               placeholder="Enter your Password"
             />
+            <small class="small">Password is required!</small>
           </div>
           <div class="form-control">
             <label for="confirm password">Confirm Password</label>
             <input
               type="text"
-              id="confirm password"
+              id="confirm-password"
               name="confirm password"
               placeholder="confirm your password"
             />
+            <small class="small">Confirm password is required!</small>
           </div>
-          <button class="btn btn-light btn-block">Submit</button>
+          <button class="btn btn-light btn-block" type="submit">submit</button>
         </form>
       </div>
     </div>
