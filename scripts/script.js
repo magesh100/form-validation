@@ -1,5 +1,5 @@
 'use strict';
-document.getElementById('title').textContent = ' Welcome to this Form';
+
 document.getElementById('title').style.color = '#5c2bbe';
 const newEl = document.createElement('h2');
 newEl.textContent = 'You can fill  this Form Here';
