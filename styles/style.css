@@ -108,6 +108,11 @@ li {
   color:rgb(238, 22, 22);
   font-size:1rem;
   visibility: hidden;
+  font-size:14px ;
+  margin-left:0.5rem ;
+  text-align: justify;
+  text-justify: inter-word;
+  
 }
 .form-control.error small{
   visibility: visible;

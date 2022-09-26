@@ -34,7 +34,7 @@ const showSuccess = function(el){
   };
 
 
-const checkRequired = function(arr){
+const checkRequired = function (arr) {
   for(const el of arr){
     if(el.value === ''){
       showError(el,`${el.name} is required` );
@@ -43,6 +43,7 @@ const checkRequired = function(arr){
   }
     }
   };
+  
   
 
   const checkLength = function (el,min,max){
